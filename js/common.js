@@ -59,7 +59,23 @@ $('.sertificationSlider').slick({
     infinite: true,
     speed: 500,
     fade: false,
-    cssEase: 'linear'
+    cssEase: 'linear',
+    responsive: [
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
 });
 
 $('.sliderThird').slick({
@@ -78,6 +94,24 @@ $('.sliderThird').on('click', function () {
     $('.sliderThird').find('.slick-dots').children('li.slick-active').addClass("myActive");
 });
 
+if($(window).width() < 768) {
+    $('.headerMenuList').slideUp();
+} else {
+    $('.headerMenuList').slideDown();
+}
+$(window).resize( function () {
+    if($(window).width() < 768) {
+        $('.headerMenuList').slideUp();
+    } else {
+        $('.headerMenuList').slideDown();
+    }
+});
+
+
+
+$('.burgersBlock').on('click', function () {
+    $('.headerMenuList').slideToggle();
+});
 
 $('.slideClickLeft').on('click', function (event) {
     var indexElem = $(this).index();

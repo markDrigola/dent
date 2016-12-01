@@ -1095,3 +1095,512 @@ header {
     margin-bottom: 40px;
     font-size: 16px;
 }
+
+.burgersBlock {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA*/
+
+@media (max-width: 1199px) {
+    .textAboutLogo {
+        padding-left: 40px;
+    }
+
+    .titleSect1 {
+        font-size: 38px;
+    }
+
+    .shagsList li {
+        font-size: 12px;
+        padding-left: 65px;
+        width: 32%;
+    }
+
+    .formText {
+        font-size: 12px;
+    }
+
+    .formCatalog {
+        padding: 25px 15px;
+    }
+
+    .formElemPosition {
+        width: 235px;
+    }
+
+    .allTitles {
+        font-size: 30px;
+    }
+
+    .pointNameCards {
+        font-size: 17px;
+    }
+
+    .rightPointTitle {
+        font-size: 16px;
+    }
+
+    .textPointNormal {
+        font-size: 18px;
+    }
+
+    .textNavSlider {
+        padding-left: 0;
+    }
+
+    .navSliders li {
+        padding: 12px 6px;
+    }
+
+    .callForm {
+        margin-bottom: 50px;
+    }
+
+    .nameReviewsPerson {
+        font-size: 14px;
+    }
+
+    .imgSert img {
+        margin: auto;
+        width: 80%;
+    }
+
+    .sertification {
+        width: 90%;
+        margin: auto;
+    }
+
+    .sertificationSlider .slick-prev {
+        top: 38%;
+    }
+
+    .sliderThird .slick-next {
+        right: 23%;
+    }
+
+    .sliderThird .slick-prev {
+        left: 23%;
+    }
+
+    .greenTitles {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .thirdSlideText p {
+        font-size: 12px;
+    }
+
+    .footerLogoText {
+        font-size: 13px;
+    }
+
+    .mediaNonPadd992 {
+        padding: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .textAboutLogo {
+        padding-left: 0;
+        font-size: 12px;
+    }
+
+    .fullTextRight {
+        text-align: center;
+        padding: 0;
+    }
+
+    .telephoneDent {
+        font-size: 17px;
+    }
+
+    .fullTextRight {
+        font-size: 13px;
+    }
+
+    .headerMenuList li a {
+        font-size: 12px;
+    }
+
+    .titleSect1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .textApparats {
+        font-size: 15px;
+    }
+
+    .textApparats2 {
+        font-size: 15px;
+    }
+
+    .shagsBlock {
+        margin-top: 40px;
+    }
+
+    .firstBg {
+        width: 85px;
+        height: 85px;
+        left: -20px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .secondBg {
+        width: 77px;
+        height: 77px;
+    }
+
+    .shagsList li {
+        padding-left: 70px;
+    }
+
+    .formText {
+        font-size: 10px;
+    }
+
+    .formElemPosition {
+        width: 170px;
+    }
+
+    .formButtonAll {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .pointNameCards {
+        font-size: 14px;
+    }
+
+    .blockPointAll {
+        padding-left: 0;
+    }
+
+    .textPointNormal,
+    .textPointMin {
+        font-size: 14px;
+    }
+
+    .allTitles {
+        margin: 50px 0 30px;
+        font-size: 24px;
+    }
+
+    .listConfigure li span.textList {
+        font-size: 12px;
+    }
+
+    .titleConsultation {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .textConsultation {
+        font-size: 12px;
+    }
+
+    .rightTextPositionRev {
+        padding-left: 0;
+        font-size: 12px;
+    }
+
+    .nameReviewsPerson {
+        font-size: 12px;
+    }
+
+    .greenTitles {
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    .leftFootList .titleFootList {
+        font-size: 18px;
+    }
+
+    .leftFootList li {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .vendorDisplayInline {
+        text-align: center;
+    }
+
+    .logo img {
+        margin-bottom: 10px;
+    }
+
+    .headerMenuList li {
+        width: 100%;
+        display: block;
+    }
+
+    .burgersBlock {
+        display: block;
+    }
+
+    .glyphicon-menu-hamburger {
+        position: relative;
+        left: 10px;
+        text-align: left;
+        top: -6px;
+        color: #8b949b;
+    }
+
+    .headerMenuList li {
+
+    }
+
+    .headerMenuList {
+        padding-top: 15px;
+    }
+
+    .nonPaddMedia320 {
+        padding: 0;
+    }
+
+    .titleSect1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .textApparats,
+    .textApparats2 {
+        text-align: center;
+    }
+
+    .shagsBlock {
+        width: 100%;
+        background: transparent;
+    }
+
+    .shagsList li {
+        margin: auto;
+        float: none;
+        display: block;
+        padding-left: 80px;
+    }
+
+    .secondBg {
+        width: 47px;
+        height: 47px;
+    }
+
+    .firstBg {
+        width: 55px;
+        height: 55px;
+        left: 0px;
+    }
+
+    .shagsList li {
+        padding-left: 60px;
+        width: 240px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .shagsBlock {
+        margin-top: 0;
+    }
+
+    .apparat-1Img img {
+        display: none;
+    }
+
+    .formText {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .formCatalog {
+        display: block;
+    }
+
+    .formElemPosition {
+        width: 250px;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .allTitles {
+        font-size: 18px;
+    }
+
+    .textPointNormal,
+    .textPointMin,
+    .pointName {
+        text-align: center;
+    }
+
+    .pointName {
+        display: block;
+    }
+
+    .telephoneImgBlock {
+        display: block;
+    }
+
+    .formElemPosition {
+        display: block;
+    }
+
+    .callForm {
+        display: block;
+    }
+
+    .telephoneImgBlock {
+        padding: 12px !important;
+        text-align: center;
+    }
+
+    .titleConsultation {
+        text-align: center;
+    }
+
+    .textConsultation {
+        text-align: center;
+    }
+
+    .mediaDisplayBlock320 {
+        display: block !important;
+    }
+
+    .sliderOne .slick-prev {
+        left: 45px;
+    }
+
+    .sliderOne .slick-next {
+        right: 45px;
+    }
+
+    .textNavSlider {
+        text-align: center;
+        margin: auto;
+    }
+
+    .navSliders li {
+        display: block;
+        text-align: center;
+    }
+
+    .imgReviews img {
+        margin-bottom: 15px;
+    }
+
+    .reviewsText {
+        padding: 0;
+    }
+
+    .nameReviewsPerson {
+        text-align: center;
+    }
+
+    .rightTextPositionRev {
+        text-align: center;
+    }
+
+    .bottomBoxRev {
+        padding: 20px 0;
+    }
+
+    .sertificationSlider .slick-prev {
+        top: 44%;
+    }
+
+    .leftFootList {
+        text-align: center;
+        width: 210px;
+        margin: auto;
+        float: none;
+    }
+
+    .nameReviewsPerson {
+        font-size: 14px;
+    }
+
+    .footerTelephoneAll {
+        padding: 0;
+    }
+
+    .rightCopy,
+    .leftCopy {
+        float: none;
+        text-align: center;
+    }
+
+    .sliderThird .slick-dots {
+        width: 100%;
+        bottom: 0;
+    }
+
+    .sliderThird .slick-prev {
+        left: 10%;
+        bottom: 0;
+    }
+
+    .sliderThird .slick-next {
+        right: 10%;
+        bottom: 0;
+    }
+
+    .modal1,.modal2 {
+        width: 90%;
+    }
+
+    .modal1 .inputFormStyle,
+    .modal2 .inputFormStyle,
+    .modal3 .inputFormStyle {
+        width: 250px;
+    }
+
+    .modal1 .modal-dialog,
+    .modal2 .modal-dialog,
+    .modal3 .modal-dialog {
+        width: auto;
+    }
+
+    .modal3 {
+        width: 95%;
+    }
+
+    .modal3 .modal-title {
+        font-size: 38px;
+    }
+
+    .modal3 .modalHeadText {
+        font-size: 18px;
+    }
+
+    .section_1 {
+        padding-bottom: 60px;
+    }
+
+    .footerLogo {
+        margin-top: 20px;
+    }
+}
