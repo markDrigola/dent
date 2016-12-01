@@ -589,6 +589,7 @@ header {
 }
 
 .allNavSlidStyle {
+    cursor: pointer;
     background: rgba(107,190,95,1);
     background: -moz-linear-gradient(top, rgba(107,190,95,1) 0%, rgba(87,176,73,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(107,190,95,1)), color-stop(100%, rgba(87,176,73,1)));
@@ -658,6 +659,7 @@ header {
 
 .section_6 {
     background: #6cbe5f;
+    overflow: hidden;
 }
 
 .whiteTitle {
@@ -949,9 +951,147 @@ header {
     font-family: 'Conv_Rubik-Medium';
 }
 
-.modalText {
+.modal1 .modalText {
     margin-top: 30px;
     text-align: center;
     font-family: 'Conv_Rubik-Light';
     color: #a1a1a1;
+}
+
+
+
+
+.modal2 .modal-title {
+    text-align: center;
+    font-family: 'Rubik-Regular';
+    color: #4d4d4d;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.modal2 .modalHeadText {
+    color: #4d4d4d;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Conv_Rubik-Light';
+}
+
+.modal2 {
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal2 .modal-dialog {
+    width: 100%;
+    padding: 12px;
+    background: #f7f5f5;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.modal2 .modal-content {
+    box-shadow: none;
+    border: none;
+    background: #fff;
+}
+
+.modal2 .inputFormStyle {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.modal2 .modalInputMargTop {
+    margin-top: 30px;
+}
+
+.modal2 .modalButt {
+    color: #fff;
+    height: 55px;
+    border-radius: 4px;
+    padding: 0;
+    font-family: 'Conv_Rubik-Medium';
+}
+
+.modal2 .modalText {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Conv_Rubik-Light';
+    color: #a1a1a1;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+.modal3 .modal-title {
+    text-align: center;
+    font-family: 'Rubik-Regular';
+    color: #4d4d4d;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.modal3 .modalHeadText {
+    color: #4d4d4d;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Conv_Rubik-Light';
+}
+
+.modal3 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal3 .modal-dialog {
+    width: 100%;
+    padding: 12px;
+    background: #f7f5f5;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.modal3 .modal-content {
+    box-shadow: none;
+    border: none;
+    background: #fff;
+}
+
+.modal3 .inputFormStyle {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.modal3 .modalInputMargTop {
+    margin-top: 30px;
+}
+
+.modal3 .modalButt {
+    color: #fff;
+    height: 65px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Conv_Rubik-Medium';
+    padding: 0;
+}
+
+.modal3 .modalText {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Conv_Rubik-Light';
+    color: #a1a1a1;
+    margin-bottom: 40px;
+    font-size: 16px;
 }
