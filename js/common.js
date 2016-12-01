@@ -62,6 +62,23 @@ $('.sertificationSlider').slick({
     cssEase: 'linear'
 });
 
+$('.sliderThird').slick({
+    dots: true,
+    arrow: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
+});
+
+$('.sliderThird').find('.slick-dots').children('li').first().addClass("myActive");
+
+$('.sliderThird').on('click', function () {
+    $('.sliderThird').find('.slick-dots').children('li').removeClass("myActive");
+    $('.sliderThird').find('.slick-dots').children('li.slick-active').addClass("myActive");
+});
+
+
 $('.slideClickLeft').on('click', function (event) {
     var indexElem = $(this).index();
     var indexSlide = $('.slideClick').index();

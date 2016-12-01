@@ -394,6 +394,13 @@ header {
     border-right: none;
     position: relative;
     padding-bottom: 30px;
+    transition: all .3s;
+}
+
+.fullCardsBlock:hover {
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(230, 229, 229, 1);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(230, 229, 229, 1);
+    box-shadow: 0px 0px 12px 0px rgba(230, 229, 229, 1);
 }
 
 .imgCrdsBlock1 {
@@ -570,7 +577,7 @@ header {
 }
 
 .allSlBlock {
-    height: 460px;
+    height: 440px;
 }
 
 .allSlBlock img {
@@ -692,4 +699,259 @@ header {
 
 .sertificationSlider {
     margin-bottom: 80px;
+}
+
+.imgSliderThird img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.sliderThird {
+
+}
+
+.greenTitles {
+    color: #6cbe5f;
+    font-size: 32px;
+    font-family: 'Conv_Rubik-Light';
+    margin-bottom: 50px;
+}
+
+.thirdSlideText {
+    text-align: left;
+}
+
+.thirdSlideText p {
+
+}
+
+.sliderThird .slick-dots {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    height: 40px;
+    border-radius: 3px;
+    background: #fff;
+    display: flex !important;
+    padding: 0 60px;
+}
+
+.sliderThird .slick-dots li {
+    margin: auto;
+    background: #fff;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #6cbe5f;
+    transition: all .3s;
+}
+
+.sliderThird .slick-dots li:hover {
+    background: #6cbe5f;
+}
+
+.myActive {
+    background: #6cbe5f !important;
+}
+
+.sliderThird .slick-prev {
+    left: 30%;
+    z-index: 2000;
+    bottom: 20px;
+    top: auto;
+    background: url("../img/leftThird.png") no-repeat center;
+}
+
+.sliderThird .slick-next {
+    background: url("../img/rightThird.png") no-repeat center;
+    right: 30%;
+    bottom: 20px;
+    top: auto;
+    z-index: 2000;
+}
+
+.section_7 {
+    background: #f4f4f4;
+    padding-bottom: 60px;
+}
+
+.leftFootList {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.leftFootList li {
+    
+}
+
+.titleFootList {
+    font-family: 'Conv_Rubik-Light';
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.footerLogo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footerLogoText {
+    text-align: center;
+    color: #a3a3a3;
+}
+
+.telephoneFooter1,
+.telephoneFooter2,
+.skypeFooter {
+    position: relative;
+}
+
+.telephoneFooter1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -30px;
+    width: 24px;
+    height: 24px;
+    background: url("../img/ico10.png") no-repeat center;
+}
+
+.telephoneFooter2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -30px;
+    width: 24px;
+    height: 24px;
+    background: url("../img/ico12.png") no-repeat center;
+}
+
+.skypeFooter:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -30px;
+    width: 24px;
+    height: 24px;
+    background: url("../img/ico11.png") no-repeat center;
+}
+
+.footerTelephoneAll {
+    padding-left: 70px;
+    padding-right: 0;
+}
+
+.allFooter {
+    border-top: 4px solid #ededed;
+    padding-top: 50px;
+}
+
+.leftCopy {
+    font-family: 'Conv_Rubik-Light';
+}
+
+.rightCopy {
+    float: right;
+    text-align: right;
+    font-family: 'Conv_Rubik-Light';
+}
+
+.rightCopy a {
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.blockCopyRight {
+    border-top: 1px solid #e8e8e8;
+    padding-top: 14px;
+}
+
+.paddingFoot {
+    padding-bottom: 40px;
+}
+
+.close {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.modal1 .modal-title {
+    text-align: center;
+    font-family: 'Rubik-Regular';
+    color: #4d4d4d;
+    text-transform: uppercase;
+}
+
+.modal1 {
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal1 .modal-dialog {
+    width: 100%;
+    padding: 12px;
+    background: #f7f5f5;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.modal1 .modal-content {
+    box-shadow: none;
+    border: none;
+    background: #fff;
+}
+
+.modal-header .close {
+    margin-top: -7px;
+}
+
+.modal {
+    z-index: 2050;
+}
+
+.modal-backdrop {
+    z-index: 2040;
+}
+
+.modal1 .inputFormStyle {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal1 .modalInputMargTop {
+    margin-top: 30px;
+}
+
+.modal1 .modalButt {
+    color: #fff;
+    height: 55px;
+    border-radius: 4px;
+    font-family: 'Conv_Rubik-Medium';
+}
+
+.modalText {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Conv_Rubik-Light';
+    color: #a1a1a1;
 }
